@@ -9,10 +9,13 @@ phases:
 
   build:
     commands:
-      - npm run build
-      - npm run export
-      - aws s3 sync out/ s3://nextjsbucket2323ts --delete
+      - npm run build 
+      - tar -cvf nextjs-app.tar .
 
 artifacts:
   files:
-    - '**/*'
+    - nextjs-app.tar 
+    - appspec.yml 
+    - deploy.sh  
+  discard-paths: no
+
