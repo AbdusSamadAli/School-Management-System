@@ -17,4 +17,5 @@
 - **Hosting:** AWS EC2, PM2  
 - **Infrastructure:** AWS IAM, Security Groups, CloudWatch  
 
+## Project Link hosted on EC2:http://13.200.246.175:3000/
 
