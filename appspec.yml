@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/nextjs-app
+    destination: /home/ubuntu/School-Management-System
 
 hooks:
   AfterInstall:
