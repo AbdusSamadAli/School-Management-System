@@ -14,8 +14,10 @@ phases:
 
 artifacts:
   files:
-    - nextjs-app.tar 
-    - appspec.yml 
+    - nextjs-app.tar
+    - appspec.yml
     - deploy.sh  
   discard-paths: no
+  base-directory: .  
+
 
