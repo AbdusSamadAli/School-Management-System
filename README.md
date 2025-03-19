@@ -1,3 +1,4 @@
+[!CI/CD Pipeline](https://github.com/AbdusSamadAli/School-Management-System/blob/main/codepipelinenext.js.jpg?raw=true)
 # School Management System (Next.js + AWS CI/CD)
 
 🚀 A scalable **Next.js TypeScript** application deployed using **AWS CodePipeline, CodeBuild, and CodeDeploy** on **EC2**.
