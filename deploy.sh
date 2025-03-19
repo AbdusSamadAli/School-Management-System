@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/nextjs-app || exit
+cd /home/ubuntu/School-Management-System || exit
 pm2 stop nextjs-app || true
-pm2 start npm --name "nextjs-app" -- start -- -p 3000 -H 0.0.0.0
+pm2 start npm --name "School-Management-System" -- start -- -p 3000 -H 0.0.0.0
 
