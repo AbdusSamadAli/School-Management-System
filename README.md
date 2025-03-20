@@ -19,6 +19,6 @@
 - **Hosting:** AWS EC2, PM2  
 - **Infrastructure:** AWS IAM, Security Groups, CloudWatch  
 
-## Project Live at: http://13.203.198.219:3000/
+
 
 
